@@ -3,7 +3,7 @@
   <!-- STUB half and half Card -->
   <section class="container-flex py-5">
     <!-- Left -->
-    <h5 class="card-title text-center pe-md-5">NEXT EVENT</h5>
+    <h5 class="card-title text-center pe-md-5 next-event">NEXT EVENT</h5>
     <div class="container" style="margin-top: -10vh; margin-bottom: -12vh;">
       <div class="row">
         <div class="col-12 col-md-6">
@@ -177,5 +177,15 @@ export default {
   object-fit: cover;
   object-position: center 25%;
   ;
+}
+
+// FIXME
+@media (min-width: 600px) {
+  .next-event {
+    margin: 20px;
+    /* Hide the top div on larger screens */
+  }
+
+
 }
 </style>

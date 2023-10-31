@@ -5,7 +5,11 @@
   </header>
   <main>
     <!-- STUB Banner Image -->
-    <section class="container-flex">
+    <section class="container-flex position-relative fyIn-container">
+      <h1 class="animate__animated animate__backInDown center-that-text text-light"
+        style="text-align: center;position: absolute; top: 50%, left: 50% transform: translate:translate(-50%, -50%);">
+        SAAA Northern
+        Rockies</h1>
       <img src="src\assets\img\pollysgrouppic.jpg" alt="" class="bannerImg">
     </section>
     <Navbar />
@@ -78,7 +82,7 @@
   </main>
   <footer class="m-0 p-2 bg-vista-blue text-light footerHorizontal">
     <div class="container">
-      <span class="justify-content-start text-start">©️SAAANR 2023</span>
+      <span class="justify-content-start text-start">©️SAAA Northern Rockies 2023</span>
       <!-- <span class="justify-content-end">Created By Renu Solutions</span> -->
     </div>
   </footer>
@@ -234,6 +238,26 @@ export default {
 
 
 <style lang="scss">
+// Fly In Animation for Banner Text
+.fyIn-container {
+  position: relative;
+}
+
+.center-that-text {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+@media (max-width: 600px) {
+  .center-that-text {
+    left: 5%
+  }
+}
+
+// Fly In Animation for Banner Text
 .textOptBtn:hover {
   background-color: var(--drkvista-blue) !important;
   color: white !important;

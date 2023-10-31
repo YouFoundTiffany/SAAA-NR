@@ -89,7 +89,7 @@ export default {
 </script>
 
 <style scoped>
-@media screen and (min-width: 768px) {
+@media (min-width: 600px) {
   .navbar-brand {
     display: none;
     /* Hide the top div on larger screens */
@@ -114,7 +114,7 @@ export default {
 }
 
 /* Hide the mobile home link on larger screens */
-@media screen and (min-width: 600px) {
+@media(min-width: 600px) {
   .mobileHome {
     display: none;
   }
@@ -130,7 +130,7 @@ export default {
 }
 
 /* Hide the full screen home link on smaller screens */
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .fullscrnHome {
     display: none;
   }
