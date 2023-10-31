@@ -4,7 +4,7 @@
 @import "./_utilities.scss";
 @import "./loaders.scss";
 
-body{
+body {
   overscroll-behavior: none;
 }
 
@@ -30,6 +30,7 @@ select {
     &:valid {
       border: 1px solid $success;
     }
+
     &:invalid {
       border: 1px solid $danger;
     }
@@ -39,4 +40,148 @@ select {
 form:invalid button[type="submit"] {
   filter: grayscale(1);
   pointer-events: none;
+}
+
+/* SAAA STYLES HERE */
+
+:root {
+
+  --vista-blue: #81A8E6ff;
+  --medvista-blue: #588fe9;
+  --drkvista-blue: #0b46a7;
+  --ultra-drkvista-blue: #021636;
+  --persian-red: #C13A2Cff;
+  --kobicha: #654222ff;
+  --olive: #877C42ff;
+  --black: #030203ff;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+/* Font Styles */
+.ManropTxt {
+  font-family: 'Manrope', sans-serif;
+}
+
+/* Background Colors */
+.bg-vista-blue {
+  background-color: var(--medvista-blue);
+}
+
+.bg-medvista-blue {
+  background-color: var(--vista-blue);
+}
+
+.bg-persian-red {
+  background-color: var(--persian-red);
+}
+
+.bg-kobicha {
+  background-color: var(--kobicha);
+}
+
+.bg-olive {
+  background-color: var(--olive);
+}
+
+.bg-black {
+  background-color: var(--black);
+}
+
+/* Text Colors */
+.text-vista-blue {
+  color: var(--vista-blue);
+}
+
+.text-ultra-drkvista-blue {
+  color: var(--ultra-drkvista-blue) !important;
+}
+
+.text-persian-red {
+  color: var(--persian-red);
+}
+
+.text-kobicha {
+  color: var(--kobicha);
+}
+
+.text-olive {
+  color: var(--olive);
+}
+
+.text-black {
+  color: var(--black);
+}
+
+/* Border Colors */
+.border-vista-blue {
+  border-color: var(--vista-blue) !important;
+}
+
+.border-ultra-drkvista-blue {
+  border-color: var(--ultra-drkvista-blue) !important;
+}
+
+.border-medvista-blue {
+  border-color: var(--medvista-blue) !important;
+}
+
+.border-drkvista-blue {
+  border-color: var(--drkvista-blue) !important;
+}
+
+.border-persian-red {
+  border-color: var(--persian-red);
+}
+
+.border-kobicha {
+  border-color: var(--kobicha);
+}
+
+.border-olive {
+  border-color: var(--olive);
+}
+
+.border-black {
+  border-color: var(--black);
+}
+
+
+/* Gradient Classes */
+.blue-gradient-top {
+  background-image: linear-gradient(0deg, var(--medvista-blue), rgb(195, 209, 231));
+}
+
+.gradient-right {
+  background-image: linear-gradient(90deg, var(--vista-blue), var(--persian-red), var(--kobicha), var(--olive), var(--black));
+}
+
+.gradient-bottom {
+  background-image: linear-gradient(180deg, var(--vista-blue), var(--persian-red), var(--kobicha), var(--olive), var(--black));
+}
+
+.gradient-left {
+  background-image: linear-gradient(270deg, var(--vista-blue), var(--persian-red), var(--kobicha), var(--olive), var(--black));
+}
+
+.gradient-top-right {
+  background-image: linear-gradient(45deg, var(--vista-blue), var(--persian-red), var(--kobicha), var(--olive), var(--black));
+}
+
+.gradient-bottom-right {
+  background-image: linear-gradient(135deg, var(--vista-blue), var(--persian-red), var(--kobicha), var(--olive), var(--black));
+}
+
+.gradient-top-left {
+  background-image: linear-gradient(225deg, var(--vista-blue), var(--persian-red), var(--kobicha), var(--olive), var(--black));
+}
+
+.gradient-bottom-left {
+  background-image: linear-gradient(315deg, var(--vista-blue), var(--persian-red), var(--kobicha), var(--olive), var(--black));
+}
+
+.gradient-radial {
+  background-image: radial-gradient(var(--vista-blue), var(--persian-red), var(--kobicha), var(--olive), var(--black));
 }
