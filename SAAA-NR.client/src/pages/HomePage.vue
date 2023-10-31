@@ -37,7 +37,7 @@
     <!-- Card 1 -->
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-md-6 mb-4 order-1 order-md-2">
+        <div class="col-lg-4 col-md-6 mb-4">
           <div class="card text-center h-90vh">
             <img src="src\assets\img\Titan21.jpg" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
@@ -49,7 +49,7 @@
         </div>
 
         <!-- Card 2 -->
-        <div class="col-lg-4 col-md-6 mb-4 order-2 order-md-1">
+        <div class="col-lg-4 col-md-6 mb-4">
           <div class="card text-center h-90vh">
             <img src="src\assets\img\SAAALogoMed.svg" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
@@ -61,7 +61,7 @@
         </div>
 
         <!-- Card 3 -->
-        <div class="col-lg-4 col-md-6 mb-4 order-3 order-md-3">
+        <div class="col-lg-4 col-md-6 mb-4 ">
           <div class="card text-center h-90vh">
             <img src="src\assets\img\chrismoore.jpg" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
@@ -93,12 +93,12 @@
 
 
 
-
   </section>
 </template>
 
 <script>
 export default {
+
   setup() {
     return {}
   }
@@ -135,6 +135,7 @@ export default {
 
 
 // section
+
 .bnw {
   filter: grayscale(100%);
   width: 100%;

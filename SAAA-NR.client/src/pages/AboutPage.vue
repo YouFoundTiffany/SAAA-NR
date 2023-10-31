@@ -2,11 +2,10 @@
 <template>
   <section class="container">
 
-    <section class="row">
+    <section class="row d-flex justify-content-center">
       <h1 class="text-center my-3 mb-4">About the Team</h1>
-      <div style="overflow: hidden; max-height: 50vh; width: 100%;">
-        <img src="src/assets/img/NR-Judges.jpg" alt="Judges"
-          style="object-fit: cover; object-position: center; height: 100%; width: auto;">
+      <div style="overflow: hidden; max-height: 50vh; width: 100%;" class="d-flex justify-content-center">
+        <img src="src/assets/img/croppedNR-Judges.jpg" alt="Judges" class="rounded elevation-3">
       </div>
     </section>
 
@@ -17,14 +16,13 @@
       <div class="col-12 table-card align-items-center my-2 border-upgrade">
         <div class="row align-items-center">
           <div class="col-md-2 col-12 p-4">
-            <img class="profile-pic" src="src\assets\img\Alan.JPG" alt="" style="object-position: top;">
+            <img class="profile-pic card elevetion-3" src="src\assets\img\Alan.JPG" alt="" style="object-position: top;">
           </div>
           <div class="col-md-9 col-12 px-1 fnt-Cabin">
             <h5 class="text-md-start text-center fw-bold m-md-0">Alan</h5>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde obcaecati vel pariatur dicta quasi? Quibusdam,
             reprehenderit, eius aspernatur quos pariatur qui provident praesentium officia maiores enim quod, porro
             dolorem iure?
-
           </div>
           <div class="col-md-1 col-12 text-md-center text-end">
             <!-- <a class="mdi mdi-github fs-1" href="https://github.com/TylerHigby"></a>
@@ -37,7 +35,7 @@
       <div class="col-12 table-card align-items-center my-2 border-upgrade">
         <div class="row align-items-center">
           <div class="col-md-2 col-12 p-4">
-            <img class="profile-pic" src="src\assets\img\Me.JPG" alt="">
+            <img class="profile-pic card elevetion-3" src="src\assets\img\Me.JPG" alt="">
           </div>
           <div class="col-md-9 col-12 px-1 fnt-Cabin">
             <h5 class="text-md-start text-center fw-bold m-md-0">Bud</h5>
@@ -56,7 +54,7 @@
       <div class="col-12 table-card align-items-center my-2 border-upgrade">
         <div class="row align-items-center">
           <div class="col-md-2 col-12 p-4">
-            <img class="profile-pic" src="src\assets\img\Justin.JPG" alt="">
+            <img class="profile-pic card elevetion-3" src="src\assets\img\Justin.JPG" alt="">
           </div>
           <div class="col-md-9 col-12 px-1 fnt-Cabin">
             <h5 class="text-md-start text-center fw-bold m-md-0">Justin</h5>
@@ -75,7 +73,7 @@
       <div class="col-12 table-card align-items-center my-2 border-upgrade">
         <div class="row align-items-center">
           <div class="col-md-2 col-12 p-4">
-            <img class="profile-pic" src="src\assets\img\Perren.JPG" alt="">
+            <img class="profile-pic card elevetion-3" src="src\assets\img\Perren.JPG" alt="">
           </div>
           <div class="col-md-9 col-12 px-1 fnt-Cabin">
             <h5 class="text-md-start text-center fw-bold m-md-0">Perren</h5>
@@ -94,7 +92,7 @@
       <div class="col-12 table-card align-items-center my-2 mb-3 border-upgrade">
         <div class="row align-items-center">
           <div class="col-md-2 col-12 p-4">
-            <img class="profile-pic" src="src\assets\img\Polly.JPG" alt="" style="object-position: top;">
+            <img class="profile-pic card elevetion-3" src="src\assets\img\Polly.JPG" alt="" style="object-position: top;">
           </div>
           <div class="col-md-9 col-12 px-1 fnt-Cabin">
             <h5 class="text-md-start text-center fw-bold m-md-0">Polly</h5>
@@ -113,7 +111,7 @@
       <div class="col-12 table-card align-items-center my-2 mb-3 border-upgrade">
         <div class="row align-items-center">
           <div class="col-md-2 col-12 p-4">
-            <img class="profile-pic" src="src\assets\img\Ron.jpg" alt="">
+            <img class="profile-pic card elevetion-3" src="src\assets\img\Ron.jpg" alt="">
           </div>
           <div class="col-md-9 col-12 px-1 fnt-Cabin">
             <h5 class="text-md-start text-center fw-bold m-md-0">Ron</h5>
@@ -132,7 +130,7 @@
       <div class="col-12 table-card align-items-center my-2 mb-3 border-upgrade">
         <div class="row align-items-center">
           <div class="col-md-2 col-12 p-4">
-            <img class="profile-pic" src="src\assets\img\Sean.jpg" alt="">
+            <img class="profile-pic card elevetion-3" src="src\assets\img\Sean.jpg" alt="">
           </div>
           <div class="col-md-9 col-12 px-1 fnt-Cabin">
             <h5 class="text-md-start text-center fw-bold m-md-0">Sean</h5>
@@ -150,7 +148,7 @@
       <div class="col-12 table-card align-items-center my-2 mb-3 border-upgrade">
         <div class="row align-items-center">
           <div class="col-md-2 col-12 p-4">
-            <img class="profile-pic" src="src\assets\img\Travis.JPG" alt="">
+            <img class="profile-pic card elevetion-3" src="src\assets\img\Travis.JPG" alt="">
           </div>
           <div class="col-md-9 col-12 px-1 fnt-Cabin">
             <h5 class="text-md-start text-center fw-bold m-md-0">Travis</h5>
@@ -169,7 +167,7 @@
       <div class="col-12 table-card align-items-center my-2 mb-3 border-upgrade">
         <div class="row align-items-center">
           <div class="col-md-2 col-12 p-4">
-            <img class="profile-pic" src="src\assets\img\WIll.JPG" alt="">
+            <img class="profile-pic card elevetion-3" src="src\assets\img\WIll.JPG" alt="">
           </div>
           <div class="col-md-9 col-12 px-1 fnt-Cabin">
             <h5 class="text-md-start text-center fw-bold m-md-0">Will</h5>
@@ -212,6 +210,11 @@ export default {
   object-fit: cover;
   // object-position: center;
   // elevation-2 settings
+
+}
+
+.shadow {
+  box-shadow: 0 1px 1px -1px rgba(133, 133, 133, 0.85),
 
 }
 

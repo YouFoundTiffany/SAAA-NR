@@ -2,11 +2,11 @@
 <template>
   <!-- TODO figure out sticky fixed-top navbar that still sits under the banner image.  -->
   <nav class="navbar navbar-expand-lg px-3 border-bottom border-5 border-drkvista-blue blue-gradient-top">
-    <router-link class="navbar-brand navbar-show navbar-show d-flex mobileHome" :to="{ name: 'Home' }">
+    <!-- <router-link class="navbar-brand navbar-show navbar-show d-flex mobileHome" :to="{ name: 'Home' }">
       <div class="d-flex flex-column align-items-center">
         <img alt="logo" src="src\assets\img\SAAALogoSmall.svg" height="45" />
       </div>
-    </router-link>
+    </router-link> -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
       aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -100,6 +100,7 @@ export default {
   }
 }
 
+/* Styles that will apply to all sizes */
 .navbar-nav .router-link-exact-active {
   border-bottom: 2px solid;
   border-bottom-left-radius: 0;
@@ -112,22 +113,32 @@ export default {
   color: white;
 }
 
-
-@media screen and (min-width: 768px) {
-  .fullscrnHome {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 767px) {
+/* Hide the mobile home link on larger screens */
+@media screen and (min-width: 600px) {
   .mobileHome {
     display: none;
   }
-}
 
-@media screen and (min-width: 768px) {
+  /* Ensuring the full screen home link displays on larger screens */
+  .fullscrnHome {
+    display: flex;
+  }
+
   nav {
     height: 64px;
   }
 }
+
+/* Hide the full screen home link on smaller screens */
+@media screen and (max-width: 600px) {
+  .fullscrnHome {
+    display: none;
+  }
+
+  /* Ensuring the mobile home link displays on smaller screens */
+  .mobileHome {
+    display: flex;
+  }
+}
 </style>
+
