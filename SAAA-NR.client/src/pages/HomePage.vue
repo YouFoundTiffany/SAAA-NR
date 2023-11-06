@@ -16,9 +16,9 @@
         <div class="col-12 col-md-6 d-flex align-items-center">
           <div class=" text-center w-100">
             <div class="card-body">
-              <h5 class="card-title text-center pe-5">Frozen Stones</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, doloribus!.</p>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+              <h4 class="card-text">Frozen Stones</h4>
+              <p class="card-text">Jan 1, 2024<br>Begins @ 12pm<br>
+                Location - McDevitt Youth Sports Complex,<br>5101 N Eagle Rd,<br>Boise, ID 83713</p>
             </div>
           </div>
         </div>
