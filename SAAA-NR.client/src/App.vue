@@ -3,9 +3,9 @@
     <!-- moved Navbar out of Header into the main section -->
   </header>
   <main>
-    <!-- STUB Banner Image -->
+    <!-- STUB Banner Image SAAA is a Graphic, not text -->
     <section class="container-flex position-relative">
-      <img src="src\assets\img\saaanrNameLogoLongWhite.svg" alt=""
+      <img src="src/assets/img/NorthernRockiesNameLogoWhiteDropShadRound.svg" alt=""
         class="animate__animated animate__backInDown center-that-img">
       <img src="src\assets\img\pollysgrouppic.jpg" alt="" class="bannerImg">
     </section>
@@ -120,19 +120,11 @@ export default {
 
 
 <style lang="scss">
-// Fly In Animation for Banner Text
-.fyIn-container {
-  position: relative;
-}
-
 .center-that-img {
-
   position: absolute;
   top: 50%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  /* Ensure the image is above the banner image */
+  left: 3%;
+
 }
 
 @media (max-width: 600px) {
