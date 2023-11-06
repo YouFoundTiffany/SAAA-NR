@@ -18,30 +18,30 @@
           <img alt="logo" src="src\assets\img\SAAALogoSmall.svg" height="45" title="Home Page" />
         </div>
       </router-link>
-      <li>
+      <!-- <li>
         <router-link :to="{ name: 'Events' }"
           class="btn lighten-30 selectable text-uppercase fw-bold text-ultra-drkvista-blue">
           Events
         </router-link>
-      </li>
-      <li>
+      </li> -->
+      <!-- <li>
         <router-link :to="{ name: 'Practices' }"
           class="btn lighten-30 selectable text-uppercase fw-bold text-ultra-drkvista-blue">
           Practices
         </router-link>
-      </li>
-      <li>
+      </li> -->
+      <!-- <li>
         <router-link :to="{ name: 'About' }"
           class="btn lighten-30 selectable text-uppercase fw-bold text-ultra-drkvista-blue">
-          About SAAA-NR
+          About Us
         </router-link>
-      </li>
-      <li>
+      </li> -->
+      <!-- <li>
         <router-link :to="{ name: 'Games History' }"
           class="btn lighten-30 selectable text-uppercase fw-bold text-ultra-drkvista-blue">
           Games History
         </router-link>
-      </li>
+      </li> -->
       <li>
         <a class="btn lighten-30 selectable text-uppercase fw-bold text-ultra-drkvista-blue px-2"
           href="https://scottishscores.com/" target="_blank">Scottish
@@ -64,11 +64,11 @@
           </li>
           <li><a class="dropdown-item text-uppercase fw-bold text-ultra-drkvista-blue"
               href="https://www.saaa-national.org/information" target="_blank">NASGA</a></li>
-          <li>
+          <!-- <li>
             <a type="button" class="btn bg-vista-blue text-light textOptBtn" data-bs-toggle="modal"
               data-bs-target="#TextOptIn">Sign
               Up for Text Notificaitons</a>
-          </li>
+          </li> -->
         </ul>
       </div>
 

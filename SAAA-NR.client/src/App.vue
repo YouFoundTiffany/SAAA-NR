@@ -4,10 +4,10 @@
   </header>
   <main>
     <!-- STUB Banner Image SAAA is a Graphic, not text -->
-    <section class="container-flex position-relative">
+    <section class="container-flex ban-con">
+      <img src="src\assets\img\pollysgrouppic.jpg" alt="" class="bannerImg">
       <img src="src/assets/img/NorthernRockiesNameLogoWhiteDropShadRound.svg" alt=""
         class="animate__animated animate__backInDown center-that-img">
-      <img src="src\assets\img\pollysgrouppic.jpg" alt="" class="bannerImg">
     </section>
     <!-- <h1 class="animate__animated animate__backInDown center-that-text text-light"
         style="text-align: center;position: absolute; top: 50%, left: 50% transform: translate:translate(-50%, -50%);">
@@ -120,20 +120,61 @@ export default {
 
 
 <style lang="scss">
+.ban-con {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* Prevents any child elements from causing scroll */
+}
+
 .center-that-img {
   position: absolute;
-  top: 50%;
-  left: 3%;
-
+  z-index: 10;
+  /* Ensure the logo is above the other image */
+  max-width: 100%;
+  /* Limits the logo size to the container size */
+  height: auto;
+  /* Maintain aspect ratio */
 }
 
-@media (max-width: 600px) {
+.bannerImg {
+  width: 100%;
+  /* Assuming you want the banner image to span the width of the container */
+  height: auto;
+  /* Maintain aspect ratio */
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 768px) {
   .center-that-img {
-    /* Your mobile-specific styles here, like adjusting the size, etc. */
-    width: 70%;
-    /* Adjust the width as necessary */
+    max-width: 75%;
+    /* Adjust the logo size on mobile */
   }
 }
+
+
+
+// .po-rel {
+//   position: relative;
+// }
+
+// .center-that-img {
+//   position: absolute center;
+
+
+// }
+
+// @media screen and (max-width: 768px) {
+//   .center-that-img {
+//     margin-left: auto;
+//     margin-right: auto;
+//     display: block;
+//     left: 5%;
+//   }
+// }
+
 
 .center-that-text {
   position: absolute;

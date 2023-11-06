@@ -4,7 +4,7 @@
   <section class="container-flex py-5">
     <!-- Left -->
     <h5 class="card-title text-center pe-md-5 next-event">NEXT EVENT</h5>
-    <div class="container" style="margin-top: -10vh; margin-bottom: -12vh;">
+    <div class="container">
       <div class="row">
         <div class="col-12 col-md-6">
           <div class=" text-center">
@@ -16,9 +16,9 @@
         <div class="col-12 col-md-6 d-flex align-items-center">
           <div class=" text-center w-100">
             <div class="card-body">
-              <h5 class="card-title text-center pe-5">Frozen Stones</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, doloribus!.</p>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+              <h4 class="card-text">Frozen Stones</h4>
+              <p class="card-text">Jan 1, 2024<br>Starts at 12pm<br>Location - McDevitt Youth Sports Complex<br>5101 N
+                Eagle Rd<br>Boise, ID 83713</p>
             </div>
           </div>
         </div>
@@ -27,15 +27,15 @@
   </section>
 
   <!-- STUB Border -->
-  <div class="container py-4">
+  <!-- <div class="container py-4">
     <div class="border border-top border-vista-blue"></div>
-  </div>
+  </div> -->
 
   <!-- STUB 3 Cards w header and description section-->
-  <section class="container-flex m-2">
+  <!-- <section class="container-flex m-2"> -->
 
-    <!-- Card 1 -->
-    <div class="container">
+  <!-- Card 1 -->
+  <!-- <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card text-center h-90vh">
@@ -46,10 +46,10 @@
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
             </div>
           </div>
-        </div>
+        </div> -->
 
-        <!-- Card 2 -->
-        <div class="col-lg-4 col-md-6 mb-4">
+  <!-- Card 2 -->
+  <!-- <div class="col-lg-4 col-md-6 mb-4">
           <div class="card text-center h-90vh">
             <img src="src\assets\img\SAAALogoMed.svg" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
@@ -58,10 +58,10 @@
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
             </div>
           </div>
-        </div>
+        </div> -->
 
-        <!-- Card 3 -->
-        <div class="col-lg-4 col-md-6 mb-4 ">
+  <!-- Card 3 -->
+  <!-- <div class="col-lg-4 col-md-6 mb-4 ">
           <div class="card text-center h-90vh">
             <img src="src\assets\img\chrismoore.jpg" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
@@ -70,19 +70,19 @@
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
             </div>
           </div>
-        </div>
-        <!-- Repeat the above col-md-4 div for each card you want to display -->
-      </div>
+        </div> -->
+  <!-- Repeat the above col-md-4 div for each card you want to display -->
+  <!-- </div>
     </div>
-  </section>
+  </section> -->
 
 
   <!-- STUB Color and text in Section -->
-  <section class="container-flex m-2 logobnw">
+  <!-- <section class="container-flex m-2 logobnw">
     <img class="bnw rsizeImgHP1" src="src/assets/img/SAAALogoMed.svg" alt="Logo">
     <div class="overlay"></div>
-    <h1 class="text">Your Text Here</h1>
-  </section>
+    <h1 class="text">Mission Statement</h1>
+  </section> -->
 
 
 
